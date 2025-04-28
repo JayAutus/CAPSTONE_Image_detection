@@ -9,8 +9,8 @@ CORS(app)
 
 # SQLAlchemy setup
 #mysql+pymysql://root:5555@localhost/ai_leaderboard
-#mysql+pymysql://root:4864869@34.176.220.96:3306/qualbenchai
-engine = create_engine('mysql+pymysql://root:5555@localhost/ai_leaderboard', echo=True)
+#mysql+pymysql://root:csusmcapstone@34.102.56.241:3306/qualbenchaidb
+engine = create_engine('mysql+pymysql://root:csusmcapstone@34.102.56.241:3306/qualbenchaidb', echo=True)
 Session = sessionmaker(bind=engine)
 Base = declarative_base()
 

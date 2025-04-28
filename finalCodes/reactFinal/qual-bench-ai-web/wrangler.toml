@@ -1,0 +1,8 @@
+name = "qual-bench-ai-web"
+compatibility_date = "2025-04-27"
+assets = {directory = "build"}
+
+[[d1_databases]]
+binding = "QUAL_BENCH_AI_DB"             # The name you will use in your code (example: env.DB)
+database_name = "qual-bench-ai-db"
+database_id = "82a1cf33-4ead-47c6-a5d8-e3ad368aea3c"
